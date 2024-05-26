@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Animated Product Card</title>
+  </head>
+  <body>
+
+    <div class="product-card">
+      <div class="logo-cart">
+        <img src="./logo.jpg" alt="logo">
+      </div>
+      <div class="main-images">
+        <img src="./blue.png" alt="" class="blue active" id="blue">
+        <img src="./yellow.png" alt="" class="yellow" id="yellow">
+        <img src="./pink.png" alt="" class="pink" id="pink">
+      </div>
+
+      <div class="shoe-details">
+        <span class="shoe_name">ADDIDAS GAZE ZX</span>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus tenetur at provident deleniti voluptatum unde ipsam omnis saepe magni aut.</p>
+        <div class="stars">
+          <i class="bx bx-star"></i>
+          <i class="bx bx-star"></i>
+          <i class="bx bx-star"></i>
+          <i class="bx bx-star"></i>
+          <i class="bx bx-star"></i>
+        </div>
+      </div>
+
+      <div class="color-price">
+        <div class="color-option">
+          <span class="color">Colour</span>
+          <div class="circles">
+            <span class="circle blue active" id="blue"></span>
+            <span class="circle yellow" id="yellow"></span>
+            <span class="circle pink" id="pink"></span>
+          </div>
+          <div class="price">
+            <span class="price_num">$90</span>
+            <span class="price_letter">Nine doloar</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="button">
+        <div class="button-layer">
+          <button>Add to cart</button>
+        </div>
+      </div>
+
+    </div>
+
+    <script
+      src="https://code.jquery.com/jquery-3.6.3.js"
+      integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM="
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
